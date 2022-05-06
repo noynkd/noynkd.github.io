@@ -1,0 +1,18 @@
+# https://gohugo.io/getting-started/configuration/
+baseURL: http://noynkd.github.io/
+
+languageCode: ja-JP
+hasCJKLanguage: true
+timeZone: Asia/Tokyo
+
+title: ざっき
+theme: PaperMod
+pagenate: 5
+
+params:
+  showBreadCrumbs: true
+  showCodeCopyButtons: true
+  hideSummary: false
+
+ignoreFiles:
+- README.md
