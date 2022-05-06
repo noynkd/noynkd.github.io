@@ -10,6 +10,9 @@ theme: PaperMod
 pagenate: 5
 
 params:
+  homeInfoParams:
+    title: ざっき
+    content: なんかあったときにメモする
   showBreadCrumbs: true
   showCodeCopyButtons: true
   hideSummary: false
