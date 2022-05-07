@@ -6,7 +6,9 @@ hasCJKLanguage: true
 timeZone: Asia/Tokyo
 
 title: ざっき
-theme: PaperMod
+theme:
+- hugo-notice
+- PaperMod
 pagenate: 5
 
 params:
