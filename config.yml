@@ -15,7 +15,6 @@ params:
   homeInfoParams:
     title: ざっき
     content: なんかあったときにメモする
-  showBreadCrumbs: true
   showCodeCopyButtons: true
   hideSummary: false
   fuseOpts:
