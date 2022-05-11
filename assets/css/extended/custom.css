@@ -1,3 +1,20 @@
 body {
-  font-family: 'Yomogi', cursive;
+  font-family: 'Zen Kaku Gothic New', cursive;
+}
+code {
+  font-family: 'Roboto Mono', monospace;
+}
+h1.post-title::before {
+  content: '# ';
+  color: #4682b4
+}
+div.post-content h2::before {
+  content: '## ';
+  color: #4682b4
+}
+div.post-content h2 {
+  border-bottom: solid 2px #000000
+}
+body.dark div.post-content h2 {
+  border-bottom: solid 2px #FFFFFF
 }
