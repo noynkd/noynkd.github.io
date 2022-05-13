@@ -1,0 +1,93 @@
+* {
+  font-family: 'Roboto Mono', monospace !important;
+  font-size: 12px !important;
+}
+
+.relation {
+  stroke: var(--mermaid-border) !important;
+}
+#aggregationEnd,
+.aggregation {
+  fill: var(--mermaid-entry) !important;
+  stroke: var(--mermaid-border) !important;
+}
+#extensionEnd,
+.extension {
+  fill: var(--mermaid-border) !important;
+  stroke: var(--mermaid-border) !important;
+}
+#compositionEnd,
+.composition {
+  fill: var(--mermaid-border) !important;
+  stroke: var(--mermaid-border) !important;
+}
+.nodeLabel,
+.edgeLabel {
+  color: var(--mermaid-content) !important;
+}
+.edgeLabel .label span {
+  background: var(--mermaid-theme) !important;
+}
+.node rect,
+.node circle,
+.node ellipse,
+.node polygon,
+.node path {
+  fill: var(--mermaid-entry) !important;
+  stroke: var(--mermaid-border) !important;
+}
+.divider {
+  stroke: var(--mermaid-border) !important;
+}
+
+.node.interface .nodeLabel {
+  color: var(--mermaid-content-interface) !important;
+}
+.node.interface rect {
+  fill: var(--mermaid-entry-interface) !important;
+  stroke: var(--mermaid-border-interface) !important;
+}
+.node.interface .divider {
+  stroke: var(--mermaid-border-interface) !important;
+}
+
+.node.abstract .nodeLabel {
+  color: var(--mermaid-content-abstract) !important;
+}
+.node.abstract .classTitle .nodeLabel {
+  font-style: italic;
+}
+.node.abstract rect {
+  fill: var(--mermaid-entry-abstract) !important;
+  stroke: var(--mermaid-border-abstract) !important;
+}
+.node.abstract .divider {
+  stroke: var(--mermaid-border-abstract) !important;
+}
+
+.node.internal .nodeLabel {
+  color: var(--mermaid-content-internal) !important;
+}
+.node.internal rect {
+  fill: var(--mermaid-entry-internal) !important;
+  stroke: var(--mermaid-border-internal) !important;
+  stroke-width: 1;
+}
+.node.internal .divider {
+  stroke: var(--mermaid-border-internal) !important;
+  stroke-width: 1;
+}
+
+.node.static .nodeLabel {
+  color: var(--mermaid-content-static) !important;
+}
+.node.static .classTitle .nodeLabel {
+  text-decoration: underline;
+}
+.node.static rect {
+  fill: var(--mermaid-entry-static) !important;
+  stroke: var(--mermaid-border-static) !important;
+}
+.node.static .divider {
+  stroke: var(--mermaid-border-static) !important;
+}

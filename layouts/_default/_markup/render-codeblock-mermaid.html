@@ -1,0 +1,7 @@
+{{ $css := resources.Get "css/mermaid.css" | resources.Minify }}
+{{ $style := print "%%{ init: { 'theme': 'forest', 'themeCSS': '" $css.Content "' } }%%\n" }}
+<div class="mermaid">
+  {{- $style }}
+  {{- .Inner }}
+</div>
+{{ .Page.Store.Set "hasMermaid" true }}

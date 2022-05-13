@@ -1,0 +1,43 @@
+:root {
+  --mermaid-entry: rgb(240, 240, 240);
+  --mermaid-content: rgb(32, 32, 32);
+  --mermaid-border: rgb(56, 56, 56);
+
+  --mermaid-entry-interface: rgb(240, 255, 240);
+  --mermaid-content-interface: rgb(32, 128, 32);
+  --mermaid-border-interface: rgb(56, 144, 56);
+
+  --mermaid-entry-abstract: rgb(255, 240, 240);
+  --mermaid-content-abstract: rgb(128, 32, 32);
+  --mermaid-border-abstract: rgb(144, 56, 56);
+
+  --mermaid-entry-internal: rgb(248, 248, 248);
+  --mermaid-content-internal: rgb(128, 128, 128);
+  --mermaid-border-internal: rgb(144, 144, 144);
+
+  --mermaid-entry-static: var(--mermaid-entry);
+  --mermaid-content-static: var(--mermaid-content);
+  --mermaid-border-static: var(--mermaid-border);
+}
+
+.dark {
+  --mermaid-entry: rgb(56, 56, 56);
+  --mermaid-content: rgb(208, 208, 208);
+  --mermaid-border: rgb(232, 232, 232);
+
+  --mermaid-entry-interface: rgb(32, 56, 32);
+  --mermaid-content-interface: rgb(180, 208, 180);
+  --mermaid-border-interface: rgb(196, 232, 196);
+
+  --mermaid-entry-abstract: rgb(56, 32, 32);
+  --mermaid-content-abstract: rgb(208, 180, 180);
+  --mermaid-border-abstract: rgb(232, 196, 196);
+
+  --mermaid-entry-internal: rgb(32, 32, 32);
+  --mermaid-content-internal: rgb(180, 180, 180);
+  --mermaid-border-internal: rgb(196, 196, 196);
+
+  --mermaid-entry-static: var(--mermaid-entry);
+  --mermaid-content-static: var(--mermaid-content);
+  --mermaid-border-static: var(--mermaid-border);
+}
