@@ -1,7 +1,7 @@
 # https://gohugo.io/getting-started/configuration/
 baseURL: http://noynkd.github.io/
 
-languageCode: ja
+languageCode: ja-JP
 defaultContentLanguage: ja
 hasCJKLanguage: true
 timeZone: Asia/Tokyo
@@ -12,12 +12,39 @@ theme:
 - PaperMod
 pagenate: 5
 
+markup:
+  goldmark:
+    extensions:
+      definitionList: true
+      footnote: true
+      linkify: true
+      linkifyProtocol: https
+      strikethrough: true
+      table: true
+      taskList: true
+      typographer: true
+    parser:
+      attribute:
+        block: true
+        title: true
+      autoHeadingID: true
+      autoHeadingIDType: github
+    renderer:
+      hardWraps: true
+      unsafe: true
+      xhtml: false
+
 params:
+  cover:
+    responsiveInages: true
+    linkFullImages: false
   homeInfoParams:
     title: ざっき
-    content: なんかあったときにメモする
+    content: >
+      - なんかあったときにメモする
   showCodeCopyButtons: true
   hideSummary: false
+  hideMeta: false
   fuseOpts:
     isCaseSensitive: false
     shouldSort: true
