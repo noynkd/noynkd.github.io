@@ -59,9 +59,9 @@ ignoreFiles:
 
 menu:
   main:
-  - identifier: posts
-    name: Posts
-    url: /posts/
+  - identifier: archives
+    name: Archives
+    url: /archives/
     weight: 1
   - identifier: tags
     name: Tags
